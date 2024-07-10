@@ -15,6 +15,13 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/images/favicon.png" }],
+    script: [
+      { // counter.dev
+          src: "https://cdn.counter.dev/script.js",
+          "data-id": "03bd5925-48e2-4d33-ae59-d66aaf6acba0",
+          "data-utcoffset": "2"
+      }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
